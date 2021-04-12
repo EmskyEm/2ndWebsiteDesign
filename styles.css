@@ -1,0 +1,54 @@
+body {
+  background: transparent;
+}
+
+h1 {
+  color: white;
+}
+
+.container-fluid {
+  background: transparent;
+}
+
+.nav-item {
+  font-family: Roboto, Sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  padding-left: 100px;
+}
+
+html {
+  background: url(images/ninka.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ninka.jpg {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  background-color: transparent;
+}
+
+h2 {
+  font-size: 50px;
+  color: white;
+}
+
+p {
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+  color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+}
