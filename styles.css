@@ -1,5 +1,7 @@
 body {
   background: transparent;
+  height: 1000px;
+  font-size: 4rem;
 }
 
 h1 {
@@ -11,10 +13,9 @@ h1 {
 }
 
 .nav-item {
-  font-family: Roboto, Sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   color: white;
   padding-left: 100px;
 }
@@ -37,11 +38,19 @@ h1,
 h2 {
   text-align: center;
   background-color: transparent;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 158px;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 158px;
   color: white;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+h4 {
+  font-size: 90px;
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 p {
@@ -51,4 +60,5 @@ p {
   color: white;
   margin-left: 60px;
   margin-right: 60px;
+  font-family: "Zilla Slab Highlight", cursive;
 }
