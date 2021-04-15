@@ -1,25 +1,18 @@
 body {
   background: transparent;
-  height: 1000px;
-  font-size: 4rem;
 }
-
 h1 {
   color: white;
 }
-
 .container-fluid {
   background: transparent;
 }
-
 .nav-item {
   font-family: "Nanum Gothic", sans-serif;
   font-style: normal;
   font-weight: 500;
   color: white;
-  padding-left: 100px;
 }
-
 html {
   background: url(images/ninka.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -27,32 +20,24 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-
-ninka.jpg {
+/* ninka.jpg {
   position: fixed;
   top: 0;
   left: 0;
-}
-
+} */
 h1,
 h2 {
   text-align: center;
   background-color: transparent;
   font-family: "Nanum Gothic", sans-serif;
-  font-size: 158px;
 }
-
 h2 {
-  font-size: 158px;
   color: white;
   font-family: "Nanum Gothic", sans-serif;
 }
-
 h4 {
-  font-size: 90px;
   font-family: "Nanum Gothic", sans-serif;
 }
-
 p {
   text-align: center;
   justify-content: space-evenly;
@@ -61,4 +46,34 @@ p {
   margin-left: 60px;
   margin-right: 60px;
   font-family: "Zilla Slab Highlight", cursive;
+}
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  body {
+    font-size: 3rem;
+  }
+  .nav-item {
+    padding-left: 50px;
+  }
+  h1,
+  h2 {
+    font-size: 158px;
+  }
+  h4 {
+    font-size: 90px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 4rem;
+    height: 1000px;
+  }
+  .nav-item {
+    padding-left: 100px;
+  }
+}
+@media (min-width: 1400px) {
 }
