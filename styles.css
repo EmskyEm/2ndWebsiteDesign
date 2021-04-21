@@ -47,7 +47,7 @@ p {
   margin-right: 60px;
   font-family: "Zilla Slab Highlight", cursive;
 }
-@media (min-width: 576px) {
+@media (min-width: 900px) {
 }
 @media (min-width: 768px) {
 }
