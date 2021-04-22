@@ -1,0 +1,68 @@
+body {
+  background: transparent;
+}
+
+.container-fluid {
+  background-color: transparent;
+}
+
+html {
+  background: url(images/backgroundPhoto.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h4 {
+  font-family: "Nanum Gothic", sans-serif;
+}
+p {
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+  color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Zilla Slab Highlight";
+  font-size: 90px;
+}
+
+@media (min-width: 900px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  body {
+    font-size: 3rem;
+  }
+  .nav-item {
+    padding-left: 50px;
+  }
+
+  h4 {
+    font-size: 90px;
+    color: rgb(208, 148, 45);
+    font-family: "Nanum Gothic", sans-serif;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 4rem;
+    height: 1000px;
+  }
+  .nav-item {
+    padding-left: 100px;
+  }
+}
+@media (min-width: 1400px) {
+}
+
+.email-link {
+  color: rgb(208, 148, 45);
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Zilla Slab Highlight";
+  font-size: 80px;
+}
