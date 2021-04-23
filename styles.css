@@ -1,16 +1,21 @@
 body {
   background: transparent;
+  text-align: center;
 }
 h1 {
   color: white;
 }
 .container-fluid {
   background-color: transparent;
+  text-align: center;
 }
 .nav-item {
   font-family: "Nanum Gothic", sans-serif;
   font-style: normal;
   font-weight: 200;
+  font-size: 80px;
+  margin-top: 40px;
+  margin-right: 10px;
 }
 
 html {
@@ -23,6 +28,7 @@ html {
 
 .container {
   background: transparent;
+  text-align: center;
 }
 
 h1,
@@ -47,6 +53,26 @@ p {
   margin-right: 60px;
   font-family: "Zilla Slab Highlight";
   font-size: 90px;
+}
+
+.btn-dark {
+  text-align: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  font-size: 70px;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-stretch: extra-expanded;
+  font-family: "Nanum Gothic", sans-serif;
+  transition: all 100ms ease-in-out;
+}
+
+.footer {
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+  color: white;
+  font-weight: 200;
 }
 
 @media (min-width: 900px) {
@@ -79,15 +105,4 @@ p {
   }
 }
 @media (min-width: 1400px) {
-}
-
-.email-link {
-  color: rgb(208, 148, 45);
-  text-align: center;
-  justify-content: space-evenly;
-  background-color: transparent;
-  margin-left: 60px;
-  margin-right: 60px;
-  font-family: "Zilla Slab Highlight";
-  font-size: 80px;
 }

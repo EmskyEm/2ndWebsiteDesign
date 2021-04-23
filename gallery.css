@@ -1,18 +1,38 @@
 html {
-  background-color: black;
+  background-color: rgb(173, 196, 175);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-p {
+h1 {
   text-align: center;
+
   justify-content: space-evenly;
   background-color: transparent;
-  color: white;
   margin-left: 60px;
   margin-right: 60px;
   font-family: "Nanum Gothic", sans-serif;
   font-size: 90px;
+  width: max-content;
+}
+
+p {
+  text-align: left;
+  justify-content: space-evenly;
+  background-color: transparent;
+  color: black;
+  padding-right: 80px;
+  font-family: "Zilla Slab Highlight";
+  font-size: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: rgb(173, 196, 175);
+}
+
+.col-sm-6 {
+  text-align: center;
+  width: 2000px;
+  justify-content: space-evenly;
 }
