@@ -35,4 +35,6 @@ p {
   text-align: center;
   width: 2000px;
   justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
 }
