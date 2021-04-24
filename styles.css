@@ -47,24 +47,30 @@ h4 {
 p {
   text-align: center;
   justify-content: space-evenly;
-  background-color: transparent;
   color: white;
   margin-left: 60px;
   margin-right: 60px;
-  font-family: "Zilla Slab Highlight";
   font-size: 90px;
+  font-stretch: expanded;
+  font-family: "Zilla Slab Highlight";
 }
 
 .btn-dark {
   text-align: center;
-  justify-content: space-evenly;
   text-decoration: none;
   font-size: 70px;
-  margin-left: 60px;
-  margin-right: 60px;
-  font-stretch: extra-expanded;
   font-family: "Nanum Gothic", sans-serif;
-  transition: all 100ms ease-in-out;
+  padding: 30px;
+  color: rgb(173, 196, 175);
+  background-color: white;
+  border-block-color: transparent;
+  border-inline-color: transparent;
+  font-weight: 100;
+  border-radius: 15px;
+}
+
+btn-dark:hover {
+  transition: all 500ms ease-in-out;
 }
 
 .footer {
