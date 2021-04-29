@@ -2,16 +2,17 @@ h1 {
   text-align: center;
   justify-content: space-evenly;
   background-color: transparent;
-  margin-left: 90px;
+  margin-left: 1000px;
   font-family: "Nanum Gothic", sans-serif;
   font-size: 90px;
-  width: max-content;
+  padding-right: 80px;
+  margin-left: 90px;
 }
 .bg-green {
   background-color: rgb(173, 196, 175);
 }
 p {
-  text-align: left;
+  text-align: center;
   justify-content: space-evenly;
   background-color: transparent;
   color: black;
@@ -28,4 +29,26 @@ p {
   width: 100%;
   height: auto;
   padding: 10px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  font-weight: 50px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: black;
+  background: white;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: all 150ms ease-in-out;
 }

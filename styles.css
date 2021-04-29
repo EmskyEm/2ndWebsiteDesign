@@ -62,23 +62,26 @@ p {
   font-family: "Nanum Gothic", sans-serif;
   padding: 30px;
   color: rgb(173, 196, 175);
-  background-color: white;
+  background-color: black;
   border-block-color: transparent;
   border-inline-color: transparent;
   font-weight: 100;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 btn-dark:hover {
   transition: all 500ms ease-in-out;
 }
 
-.footer {
+.rights-reserved {
   text-align: center;
   justify-content: space-evenly;
   background-color: transparent;
   color: white;
-  font-weight: 200;
+  font-weight: 50;
+  margin-bottom: 100px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 50px;
 }
 
 @media (min-width: 900px) {
@@ -111,4 +114,35 @@ btn-dark:hover {
   }
 }
 @media (min-width: 1400px) {
+}
+
+footer {
+  margin: 60px 0;
+}
+
+.email-link {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  font-weight: 50px;
+  font-family: "Nanum Gothic", sans-serif;
+  color: rgb(173, 196, 175);
+}
+
+email-link:hover {
+  color: var(--branding-color);
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: all 150ms ease-in-out;
+}
+
+social-links a:hover {
+  color: rgb(173, 196, 175);
+  background: black;
 }
