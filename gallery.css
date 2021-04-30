@@ -1,3 +1,10 @@
+:root {
+  --background-color: rgb(173, 196, 175);
+  --primary-color: #f9f7fe;
+  --styled-font-family: "Zilla Slab Highlight";
+  --simple-font-family: "Nanum Gothic", sans-serif;
+}
+
 h1 {
   text-align: center;
   justify-content: space-evenly;
@@ -31,24 +38,28 @@ p {
   padding: 10px;
 }
 
-footer {
-  margin: 60px 0;
-}
-
-.email-link {
+footer .email-link {
   text-decoration: none;
-  color: black;
-  font-size: 50px;
-  font-weight: 50px;
-  font-family: "Nanum Gothic", sans-serif;
+  color: var(--primary-color);
+  font-size: 30px;
+  font-family: var(--simple-font-family);
 }
 
-.social-links a {
+footer .email-link:hover {
+  color: black;
+}
+
+footer .social-links a {
   margin: 0 20px;
   color: black;
-  background: white;
+  background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
-  font-size: 30px;
-  transition: all 150ms ease-in-out;
+  font-size: 35px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--background-color);
 }

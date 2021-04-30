@@ -1,3 +1,10 @@
+:root {
+  --background-color: rgb(173, 196, 175);
+  --primary-color: #f9f7fe;
+  --styled-font-family: "Zilla Slab Highlight";
+  --simple-font-family: "Nanum Gothic", sans-serif;
+}
+
 body {
   background: transparent;
   text-align: center;
@@ -61,10 +68,9 @@ p {
   font-size: 70px;
   font-family: "Nanum Gothic", sans-serif;
   padding: 30px;
-  color: rgb(173, 196, 175);
+  color: var(--background-color);
   background-color: black;
-  border-block-color: transparent;
-  border-inline-color: transparent;
+
   font-weight: 100;
   border-radius: 5px;
 }
@@ -77,7 +83,7 @@ btn-dark:hover {
   text-align: center;
   justify-content: space-evenly;
   background-color: transparent;
-  color: white;
+  color: var(--primary-color);
   font-weight: 50;
   margin-bottom: 100px;
   font-family: "Nanum Gothic", sans-serif;
@@ -116,33 +122,17 @@ btn-dark:hover {
 @media (min-width: 1400px) {
 }
 
-footer {
-  margin: 60px 0;
-}
-
-.email-link {
-  text-decoration: none;
-  color: white;
-  font-size: 50px;
-  font-weight: 50px;
-  font-family: "Nanum Gothic", sans-serif;
-  color: rgb(173, 196, 175);
-}
-
-email-link:hover {
-  color: var(--branding-color);
-}
-
-.social-links a {
+footer .social-links a {
   margin: 0 20px;
-  color: white;
+  color: black;
+  background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
-  font-size: 30px;
-  transition: all 150ms ease-in-out;
+  font-size: 50px;
+  transition: all 100ms ease-in-out;
 }
 
-social-links a:hover {
-  color: rgb(173, 196, 175);
-  background: black;
+footer .social-links a:hover {
+  color: white;
+  background: transparent;
 }
